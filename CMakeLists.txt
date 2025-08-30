@@ -10,3 +10,5 @@ FetchContent_MakeAvailable(Kokkos)
 
 add_executable(HelloKokkos HelloKokkos.cpp)
 target_link_libraries(HelloKokkos Kokkos::kokkos)
+
+add_executable(simpleMB SimpleMB.cpp)
